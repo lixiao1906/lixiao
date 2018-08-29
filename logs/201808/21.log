@@ -1,0 +1,64 @@
+[ 2018-08-21T20:39:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.172322s][吞吐率：5.80req/s] [内存消耗：2,477.68kb] [文件加载：38]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002605s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.036544s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003995s ]
+
+---------------------------------------------------------------
+[ 2018-08-21T21:36:42+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.117594s][吞吐率：8.50req/s] [内存消耗：2,562.13kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001461s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.026066s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.025290s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000501s ]
+
+---------------------------------------------------------------
+[ 2018-08-21T22:19:44+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.112383s][吞吐率：8.90req/s] [内存消耗：2,560.02kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001182s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.022188s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.019990s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000579s ]
+
+---------------------------------------------------------------
+[ 2018-08-21T22:20:19+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.118034s][吞吐率：8.47req/s] [内存消耗：2,560.02kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000940s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.023563s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.028510s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000585s ]
+
+---------------------------------------------------------------
+[ 2018-08-21T22:39:42+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.123553s][吞吐率：8.09req/s] [内存消耗：2,560.91kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001076s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.036609s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.023589s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000518s ]
+
+---------------------------------------------------------------
+[ 2018-08-21T22:40:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.113678s][吞吐率：8.80req/s] [内存消耗：2,560.91kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001089s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.024555s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.026339s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000785s ]
+
+---------------------------------------------------------------
+[ 2018-08-21T22:49:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.177980s][吞吐率：5.62req/s] [内存消耗：2,662.44kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001409s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.025867s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.025908s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001149s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.023457s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000837s ]
+
+---------------------------------------------------------------

@@ -1,0 +1,362 @@
+[ 2018-08-25T09:23:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.279113s][吞吐率：3.58req/s] [内存消耗：2,664.21kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002808s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.036746s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.004314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.023057s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.022855s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.002383s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T10:47:54+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1?XDEBUG_SESSION_START=15753
+[ log ] li.cn/api/v1/banner/1?XDEBUG_SESSION_START=15753 [运行时间：98.558375s][吞吐率：0.01req/s] [内存消耗：2,676.95kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001425s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.025536s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.023134s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.025003s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.002952s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T10:51:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1?XDEBUG_SESSION_START=15147
+[ log ] li.cn/api/v1/banner/1?XDEBUG_SESSION_START=15147 [运行时间：134.078595s][吞吐率：0.01req/s] [内存消耗：2,677.81kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001226s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.034952s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.022938s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.022213s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000930s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T10:52:10+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1?XDEBUG_SESSION_START=15147
+[ log ] li.cn/api/v1/banner/1?XDEBUG_SESSION_START=15147 [运行时间：9.389995s][吞吐率：0.11req/s] [内存消耗：2,674.75kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001108s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.024977s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.023312s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.022833s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000941s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T10:54:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1?XDEBUG_SESSION_START=15147
+[ log ] li.cn/api/v1/banner/1?XDEBUG_SESSION_START=15147 [运行时间：0.213405s][吞吐率：4.69req/s] [内存消耗：2,665.48kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001205s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.030312s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.022165s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.024996s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000932s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T10:54:15+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1?XDEBUG_SESSION_START=15147
+[ log ] li.cn/api/v1/banner/1?XDEBUG_SESSION_START=15147 [运行时间：0.246905s][吞吐率：4.05req/s] [内存消耗：2,665.48kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002717s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.042889s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001737s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.039701s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.002270s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.032984s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.001037s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T10:54:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1?XDEBUG_SESSION_START=15147
+[ log ] li.cn/api/v1/banner/1?XDEBUG_SESSION_START=15147 [运行时间：0.180525s][吞吐率：5.54req/s] [内存消耗：2,665.01kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001353s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.023266s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.021329s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000749s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.022153s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000923s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T10:56:33+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1?XDEBUG_SESSION_START=15147
+[ log ] li.cn/api/v1/banner/1?XDEBUG_SESSION_START=15147 [运行时间：11.324664s][吞吐率：0.09req/s] [内存消耗：2,674.75kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001188s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.026031s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.022938s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000734s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.022584s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000881s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T11:00:17+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1?XDEBUG_SESSION_START=15147
+[ log ] li.cn/api/v1/banner/1?XDEBUG_SESSION_START=15147 [运行时间：207.492884s][吞吐率：0.00req/s] [内存消耗：2,674.75kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001182s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.026837s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000799s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.022855s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000785s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.022839s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000944s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T11:04:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1?XDEBUG_SESSION_START=15147
+[ log ] li.cn/api/v1/banner/1?XDEBUG_SESSION_START=15147 [运行时间：0.177383s][吞吐率：5.64req/s] [内存消耗：2,666.06kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001067s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.043871s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.023936s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.022679s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000909s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T17:52:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1?XDEBUG_SESSION_START=14663
+[ log ] li.cn/api/v1/banner/1?XDEBUG_SESSION_START=14663 [运行时间：64.015681s][吞吐率：0.02req/s] [内存消耗：2,680.28kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002357s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.031138s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.023076s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.019321s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000948s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T18:04:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.138642s][吞吐率：7.21req/s] [内存消耗：2,666.16kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001201s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.020758s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.022405s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.020647s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000867s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T18:18:22+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.127382s][吞吐率：7.85req/s] [内存消耗：2,664.77kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001213s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.021805s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.021047s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.022246s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000909s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T18:27:30+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.141052s][吞吐率：7.09req/s] [内存消耗：2,689.59kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001324s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.028432s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.021567s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.020986s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000705s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T18:32:05+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.150367s][吞吐率：6.65req/s] [内存消耗：2,689.59kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010816s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.020770s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.020595s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.020235s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000819s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T18:32:26+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.140196s][吞吐率：7.13req/s] [内存消耗：2,689.60kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001286s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.025826s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000678s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.021851s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.021680s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000822s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T18:47:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.134332s][吞吐率：7.44req/s] [内存消耗：2,691.03kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001167s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.019586s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.020344s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.021045s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000736s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T18:47:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.141312s][吞吐率：7.08req/s] [内存消耗：2,691.03kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001056s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.020434s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.021070s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.021372s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.002102s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T18:48:01+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.140812s][吞吐率：7.10req/s] [内存消耗：2,690.01kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001032s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.019269s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.022359s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.024645s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000824s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T18:48:10+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.138684s][吞吐率：7.21req/s] [内存消耗：2,691.03kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000955s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.020935s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.023922s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.001024s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.023799s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000674s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T18:51:05+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.140870s][吞吐率：7.10req/s] [内存消耗：2,691.03kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001181s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.023712s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.020301s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.020991s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000717s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T18:51:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.127054s][吞吐率：7.87req/s] [内存消耗：2,690.01kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001055s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.021531s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.023803s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.019316s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000739s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T18:52:16+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.138643s][吞吐率：7.21req/s] [内存消耗：2,691.03kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001069s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.021151s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.020024s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.020637s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000765s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:06:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme
+[ log ] li.cn/api/v1/theme [运行时间：0.030616s][吞吐率：32.66req/s] [内存消耗：1,114.34kb] [文件加载：27]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:11:58+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.157810s][吞吐率：6.34req/s] [内存消耗：2,692.50kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010691s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.033825s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.025653s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.019737s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000793s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:36:21+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3?XDEBUG_SESSION_START=12862
+[ log ] li.cn/api/v1/theme?ids=1,2,3?XDEBUG_SESSION_START=12862 [运行时间：0.030254s][吞吐率：33.05req/s] [内存消耗：1,330.66kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:41:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3?XDEBUG_SESSION_START=12862
+[ log ] li.cn/api/v1/theme?ids=1,2,3?XDEBUG_SESSION_START=12862 [运行时间：0.030172s][吞吐率：33.14req/s] [内存消耗：1,330.66kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:42:56+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] li.cn/api/v1/theme?ids=1,2,3 [运行时间：0.037952s][吞吐率：26.35req/s] [内存消耗：1,330.61kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:43:35+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] li.cn/api/v1/theme?ids=1,2,3 [运行时间：0.037982s][吞吐率：26.33req/s] [内存消耗：1,321.85kb] [文件加载：29]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:44:01+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3?XDEBUG_SESSION_START=13757
+[ log ] li.cn/api/v1/theme?ids=1,2,3?XDEBUG_SESSION_START=13757 [运行时间：0.035649s][吞吐率：28.05req/s] [内存消耗：1,321.89kb] [文件加载：29]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:45:35+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=0.1
+[ log ] li.cn/api/v1/theme?ids=0.1 [运行时间：0.028531s][吞吐率：35.05req/s] [内存消耗：1,321.89kb] [文件加载：29]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:46:29+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=0.1,2?XDEBUG_SESSION_START=19085
+[ log ] li.cn/api/v1/theme?ids=0.1,2?XDEBUG_SESSION_START=19085 [运行时间：0.030185s][吞吐率：33.13req/s] [内存消耗：1,321.88kb] [文件加载：29]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:50:07+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3&XDEBUG_SESSION_START=19085
+[ log ] li.cn/api/v1/theme?ids=1,2,3&XDEBUG_SESSION_START=19085 [运行时间：48.554157s][吞吐率：0.02req/s] [内存消耗：1,335.54kb] [文件加载：29]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:50:27+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3&XDEBUG_SESSION_START=19085
+[ log ] li.cn/api/v1/theme?ids=1,2,3&XDEBUG_SESSION_START=19085 [运行时间：6.913507s][吞吐率：0.14req/s] [内存消耗：1,336.47kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:50:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=0.1,2,3&XDEBUG_SESSION_START=19085
+[ log ] li.cn/api/v1/theme?ids=0.1,2,3&XDEBUG_SESSION_START=19085 [运行时间：5.593196s][吞吐率：0.18req/s] [内存消耗：1,336.45kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:51:40+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=0.1,2,3&XDEBUG_SESSION_START=19085
+[ log ] li.cn/api/v1/theme?ids=0.1,2,3&XDEBUG_SESSION_START=19085 [运行时间：41.509756s][吞吐率：0.02req/s] [内存消耗：1,345.19kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:57:10+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1
+[ log ] li.cn/api/v1/theme?ids=1 [运行时间：0.027729s][吞吐率：36.06req/s] [内存消耗：1,331.14kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-25T19:57:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.134011s][吞吐率：7.46req/s] [内存消耗：2,692.86kb] [文件加载：46]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001040s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.020666s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.020619s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  `banner_id` = 1 [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.021869s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (65,2,3,1) [ RunTime:0.000744s ]
+
+---------------------------------------------------------------
+[ 2018-08-25T20:12:40+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] li.cn/api/v1/theme?ids=1,2,3 [运行时间：0.129032s][吞吐率：7.75req/s] [内存消耗：2,622.16kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001342s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.034810s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.019763s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000777s ]
+
+---------------------------------------------------------------

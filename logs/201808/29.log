@@ -1,0 +1,57 @@
+[ 2018-08-29T21:08:03+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ log ] li.cn/api/v1/category/all [运行时间：0.181203s][吞吐率：5.52req/s] [内存消耗：2,409.15kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002507s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.034949s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.034733s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (8,6,7) [ RunTime:0.002237s ]
+
+---------------------------------------------------------------
+[ 2018-08-29T21:19:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ log ] li.cn/api/v1/category/all [运行时间：0.199115s][吞吐率：5.02req/s] [内存消耗：2,409.98kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001533s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.059471s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.057571s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (8,6,7) [ RunTime:0.000974s ]
+
+---------------------------------------------------------------
+[ 2018-08-29T21:19:26+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ log ] li.cn/api/v1/category/all [运行时间：0.198314s][吞吐率：5.04req/s] [内存消耗：2,409.98kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001198s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.065433s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.058797s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (8,6,7) [ RunTime:0.001021s ]
+
+---------------------------------------------------------------
+[ 2018-08-29T21:25:52+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/category/all
+[ log ] li.cn/api/v1/category/all [运行时间：0.206840s][吞吐率：4.83req/s] [内存消耗：2,409.64kb] [文件加载：41]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001493s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.072492s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.060643s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (8,6,7) [ RunTime:0.001601s ]
+
+---------------------------------------------------------------
+[ 2018-08-29T21:51:20+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/by_category?id=2
+[ log ] li.cn/api/v1/product/by_category?id=2 [运行时间：0.140175s][吞吐率：7.13req/s] [内存消耗：2,515.93kb] [文件加载：39]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001220s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.072623s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000965s ]
+
+---------------------------------------------------------------
+[ 2018-08-29T21:53:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/by_category?id=2
+[ log ] li.cn/api/v1/product/by_category?id=2 [运行时间：0.139478s][吞吐率：7.17req/s] [内存消耗：2,525.41kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001255s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.060868s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000989s ]
+
+---------------------------------------------------------------
+[ 2018-08-29T21:53:48+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/by_category?id=2
+[ log ] li.cn/api/v1/product/by_category?id=2 [运行时间：0.144731s][吞吐率：6.91req/s] [内存消耗：2,525.41kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001330s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.057190s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 2 [ RunTime:0.000928s ]
+
+---------------------------------------------------------------

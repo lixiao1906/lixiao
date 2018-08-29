@@ -1,0 +1,7 @@
+[ 2018-08-14T18:42:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/banner/1
+[ log ] li.cn/api/v1/banner/1 [运行时间：0.063849s][吞吐率：15.66req/s] [内存消耗：2,169.47kb] [文件加载：37]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001322s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner_item` [ RunTime:0.019565s ]
+[ sql ] [ SQL ] SELECT * FROM `banner_item` WHERE  (  `banner_id` = 1 ) [ RunTime:0.000693s ]
+
+---------------------------------------------------------------

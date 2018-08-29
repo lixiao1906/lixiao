@@ -1,0 +1,450 @@
+[ 2018-08-26T10:18:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] li.cn/api/v1/theme?ids=1,2,3 [运行时间：0.238696s][吞吐率：4.19req/s] [内存消耗：2,622.15kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001151s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.072853s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.069624s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.002562s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000910s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T10:21:40+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] li.cn/api/v1/theme?ids=1,2,3 [运行时间：0.146636s][吞吐率：6.82req/s] [内存消耗：2,622.67kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001243s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.033850s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000814s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.036374s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000900s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T11:24:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] li.cn/api/v1/theme?ids=1,2,3 [运行时间：0.223160s][吞吐率：4.48req/s] [内存消耗：2,625.02kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001728s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.067066s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.074571s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000834s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T11:29:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] li.cn/api/v1/theme?ids=1,2,3 [运行时间：0.174258s][吞吐率：5.74req/s] [内存消耗：2,625.16kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011172s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.037326s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000803s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.034932s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000840s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T11:29:39+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] li.cn/api/v1/theme?ids=1,2,3 [运行时间：0.166440s][吞吐率：6.01req/s] [内存消耗：2,625.16kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001110s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.039975s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000685s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.041282s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000736s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T11:32:02+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] li.cn/api/v1/theme?ids=1,2,3 [运行时间：0.234275s][吞吐率：4.27req/s] [内存消耗：2,625.16kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010620s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.072164s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.066320s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.002754s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000795s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T11:37:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3&XDEBUG_SESSION_START=10536
+[ log ] li.cn/api/v1/theme?ids=1,2,3&XDEBUG_SESSION_START=10536 [运行时间：8.569958s][吞吐率：0.12req/s] [内存消耗：2,625.46kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001517s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.041887s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.001548s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.041725s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000974s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.001014s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T11:38:38+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1,2,3
+[ log ] li.cn/api/v1/theme/1,2,3 [运行时间：0.061733s][吞吐率：16.20req/s] [内存消耗：1,117.25kb] [文件加载：27]
+
+---------------------------------------------------------------
+[ 2018-08-26T11:40:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1,2,3
+[ log ] li.cn/api/v1/theme/1,2,3 [运行时间：0.038229s][吞吐率：26.16req/s] [内存消耗：1,119.23kb] [文件加载：27]
+
+---------------------------------------------------------------
+[ 2018-08-26T11:42:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme?ids=1,2,3
+[ log ] li.cn/api/v1/theme?ids=1,2,3 [运行时间：0.164764s][吞吐率：6.07req/s] [内存消耗：2,625.49kb] [文件加载：44]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010757s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.039879s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.039040s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (16,17,18) [ RunTime:0.000906s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (49,50,18) [ RunTime:0.000852s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T11:42:05+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1,2,3
+[ log ] li.cn/api/v1/theme/1,2,3 [运行时间：0.049142s][吞吐率：20.35req/s] [内存消耗：1,119.23kb] [文件加载：27]
+
+---------------------------------------------------------------
+[ 2018-08-26T11:58:03+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ log ] li.cn/api/v1/theme/1 [运行时间：0.057993s][吞吐率：17.24req/s] [内存消耗：1,332.95kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-26T12:07:42+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ log ] li.cn/api/v1/theme/1 [运行时间：0.051218s][吞吐率：19.52req/s] [内存消耗：1,332.95kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-26T12:32:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ log ] li.cn/api/v1/theme/1 [运行时间：0.307999s][吞吐率：3.25req/s] [内存消耗：2,742.86kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001597s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.036858s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.040304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.063755s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.001134s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.068226s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000838s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T12:36:46+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ log ] li.cn/api/v1/theme/1 [运行时间：0.378698s][吞吐率：2.64req/s] [内存消耗：2,743.38kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001152s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.066188s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.073295s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.084170s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000963s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.063335s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000889s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T12:37:37+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/2
+[ log ] li.cn/api/v1/theme/2 [运行时间：0.364397s][吞吐率：2.74req/s] [内存消耗：2,743.40kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001213s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.073498s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.068829s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.066883s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 2 [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.062493s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 17 [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 50 [ RunTime:0.001073s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T12:37:47+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ log ] li.cn/api/v1/theme/3 [运行时间：0.391190s][吞吐率：2.56req/s] [内存消耗：2,743.37kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001417s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.085038s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.067251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.067400s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.070553s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000747s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T12:37:59+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/4
+[ log ] li.cn/api/v1/theme/4 [运行时间：0.151698s][吞吐率：6.59req/s] [内存消耗：2,696.70kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001153s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.069979s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000696s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T12:38:07+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/1
+[ log ] li.cn/api/v1/theme/1 [运行时间：0.417926s][吞吐率：2.39req/s] [内存消耗：2,743.38kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001363s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.092462s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.071019s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.070526s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.001105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.061578s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 16 [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 49 [ RunTime:0.000721s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T12:38:12+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/4
+[ log ] li.cn/api/v1/theme/4 [运行时间：0.173638s][吞吐率：5.76req/s] [内存消耗：2,696.70kb] [文件加载：45]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001369s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.077440s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000845s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T12:38:24+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ log ] li.cn/api/v1/theme/3 [运行时间：0.393692s][吞吐率：2.54req/s] [内存消耗：2,743.37kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001119s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.082874s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000723s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.065808s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.068912s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.001044s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.066853s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000873s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T12:40:02+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ log ] li.cn/api/v1/theme/3 [运行时间：0.377006s][吞吐率：2.65req/s] [内存消耗：2,743.77kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001389s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.059068s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.062059s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.067379s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.000914s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.072514s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000884s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000726s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:18:30+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ log ] li.cn/api/v1/theme/3 [运行时间：0.378258s][吞吐率：2.64req/s] [内存消耗：2,743.77kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001252s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.075958s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.076517s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.065045s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.002619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.063815s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.002634s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000830s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:23:50+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ log ] li.cn/api/v1/theme/3 [运行时间：0.352627s][吞吐率：2.84req/s] [内存消耗：2,744.77kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001433s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.061577s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.065723s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.066540s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.000984s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.073410s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000794s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:23:54+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ log ] li.cn/api/v1/theme/3 [运行时间：0.349875s][吞吐率：2.86req/s] [内存消耗：2,744.77kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001131s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.065958s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000683s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.074411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.062203s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.000982s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.050877s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.001094s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:25:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ log ] li.cn/api/v1/theme/3 [运行时间：0.371375s][吞吐率：2.69req/s] [内存消耗：2,744.33kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001237s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.071269s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.073830s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.074222s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.070547s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000794s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:42:11+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ log ] li.cn/api/v1/theme/3 [运行时间：0.338663s][吞吐率：2.95req/s] [内存消耗：2,746.03kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001475s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.063943s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.065560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.064984s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.061469s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000866s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:43:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ log ] li.cn/api/v1/theme/3 [运行时间：0.362203s][吞吐率：2.76req/s] [内存消耗：2,746.03kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001217s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.065544s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.072692s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.075640s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.068691s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000790s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:43:45+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/theme/3
+[ log ] li.cn/api/v1/theme/3 [运行时间：0.333504s][吞吐率：3.00req/s] [内存消耗：2,746.03kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001126s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.063185s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.056022s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.066256s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 3 [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.065944s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000834s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 18 [ RunTime:0.000820s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:46:13+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?count=1
+[ log ] li.cn/api/v1/product/recently?count=1 [运行时间：0.047217s][吞吐率：21.18req/s] [内存消耗：1,331.70kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:48:08+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently
+[ log ] li.cn/api/v1/product/recently [运行时间：0.043952s][吞吐率：22.75req/s] [内存消耗：1,331.55kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:48:23+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently
+[ log ] li.cn/api/v1/product/recently [运行时间：0.040902s][吞吐率：24.45req/s] [内存消耗：1,331.55kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:48:25+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently
+[ log ] li.cn/api/v1/product/recently [运行时间：0.042949s][吞吐率：23.28req/s] [内存消耗：1,331.55kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:48:27+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently
+[ log ] li.cn/api/v1/product/recently [运行时间：0.045453s][吞吐率：22.00req/s] [内存消耗：1,331.55kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:48:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently
+[ log ] li.cn/api/v1/product/recently [运行时间：0.057699s][吞吐率：17.33req/s] [内存消耗：1,331.55kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:48:35+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently
+[ log ] li.cn/api/v1/product/recently [运行时间：0.043814s][吞吐率：22.82req/s] [内存消耗：1,331.55kb] [文件加载：30]
+
+---------------------------------------------------------------
+[ 2018-08-26T16:59:41+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently
+[ log ] li.cn/api/v1/product/recently [运行时间：0.142831s][吞吐率：7.00req/s] [内存消耗：2,519.01kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001459s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.065315s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.002293s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:00:31+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?7
+[ log ] li.cn/api/v1/product/recently?7 [运行时间：0.163643s][吞吐率：6.11req/s] [内存消耗：2,527.63kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001227s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.080217s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc [ RunTime:0.000986s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:00:43+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?count=7
+[ log ] li.cn/api/v1/product/recently?count=7 [运行时间：0.152740s][吞吐率：6.55req/s] [内存消耗：2,515.22kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001152s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.080261s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 7 [ RunTime:0.000760s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:00:54+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?7
+[ log ] li.cn/api/v1/product/recently?7 [运行时间：0.169906s][吞吐率：5.89req/s] [内存消耗：2,527.63kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001909s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.082422s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc [ RunTime:0.002190s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:01:18+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently
+[ log ] li.cn/api/v1/product/recently [运行时间：0.137836s][吞吐率：7.25req/s] [内存消耗：2,519.01kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001206s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.065359s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.000900s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:01:26+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?9
+[ log ] li.cn/api/v1/product/recently?9 [运行时间：0.160930s][吞吐率：6.21req/s] [内存消耗：2,527.63kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001163s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.079300s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc [ RunTime:0.000959s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:02:50+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?count=15
+[ log ] li.cn/api/v1/product/recently?count=15 [运行时间：0.142644s][吞吐率：7.01req/s] [内存消耗：2,519.18kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001251s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.062570s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.000970s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:11:19+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?id=17
+[ log ] li.cn/api/v1/product/recently?id=17 [运行时间：0.160501s][吞吐率：6.23req/s] [内存消耗：2,519.14kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001397s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.078317s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001002s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:11:34+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?17
+[ log ] li.cn/api/v1/product/recently?17 [运行时间：0.166749s][吞吐率：6.00req/s] [内存消耗：2,527.63kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001184s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.074946s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc [ RunTime:0.001112s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:12:00+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?count=12
+[ log ] li.cn/api/v1/product/recently?count=12 [运行时间：0.147829s][吞吐率：6.76req/s] [内存消耗：2,517.70kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001303s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.072453s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 12 [ RunTime:0.000939s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:12:51+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?9
+[ log ] li.cn/api/v1/product/recently?9 [运行时间：0.167777s][吞吐率：5.96req/s] [内存消耗：2,527.63kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001191s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.078227s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc [ RunTime:0.001054s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:14:38+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?9
+[ log ] li.cn/api/v1/product/recently?9 [运行时间：0.279549s][吞吐率：3.58req/s] [内存消耗：2,527.98kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003500s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.135489s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc [ RunTime:0.007882s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:25:19+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?count=3
+[ log ] li.cn/api/v1/product/recently?count=3 [运行时间：0.148319s][吞吐率：6.74req/s] [内存消耗：2,513.29kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001536s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.076499s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.000841s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:26:04+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?count=3
+[ log ] li.cn/api/v1/product/recently?count=3 [运行时间：0.136399s][吞吐率：7.33req/s] [内存消耗：2,513.26kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001254s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.070416s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 3 [ RunTime:0.000793s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:26:14+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?count=10
+[ log ] li.cn/api/v1/product/recently?count=10 [运行时间：0.139757s][吞吐率：7.16req/s] [内存消耗：2,516.73kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001140s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.065517s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.000905s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:26:53+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?count=10
+[ log ] li.cn/api/v1/product/recently?count=10 [运行时间：0.144633s][吞吐率：6.91req/s] [内存消耗：2,516.72kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001233s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.073129s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.000894s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:40:36+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?count=10
+[ log ] li.cn/api/v1/product/recently?count=10 [运行时间：0.181067s][吞吐率：5.52req/s] [内存消耗：2,516.93kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001810s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.088768s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.000920s ]
+
+---------------------------------------------------------------
+[ 2018-08-26T17:43:24+08:00 ] 127.0.0.1 127.0.0.1 GET /api/v1/product/recently?count=10
+[ log ] li.cn/api/v1/product/recently?count=10 [运行时间：0.150587s][吞吐率：6.64req/s] [内存消耗：2,516.89kb] [文件加载：40]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001285s ] mysql:dbname=weibiaogreat;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.084359s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 10 [ RunTime:0.000893s ]
+
+---------------------------------------------------------------
