@@ -23,6 +23,10 @@ class Product
         return $result;
     }
 
+    /**
+     * 根据分类ID查询商品
+     * @param $id
+     */
     public function getProductByCategoryId($id)
     {
         (new IDMustBePositiveInt())->goCheck();
