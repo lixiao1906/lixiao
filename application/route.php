@@ -26,6 +26,7 @@ Route::get('api/:version/theme/:id','api/:version.Theme/getThemeByID');
 //产品端
 Route::get('api/:version/product/recently','api/:version.Product/getRecently');
 Route::get('api/:version/product/by_category','api/:version.Product/getProductByCategoryId');
+Route::get('api/:version/product/:id','api/:version.Product/getOne');
 
 Route::get('api/:version/category/all','api/:version.Category/getAllCategories');
 

@@ -34,7 +34,21 @@ class Product
         if (!$result) {
             throw new ProductException();
         }
-        // ... 忘了返回了
         return $result;
+    }
+
+    /**
+     * 查询商品详情
+     *
+     * @param $id
+     */
+    public function getOne($id)
+    {
+        (new IDMustBePositiveInt())->goCheck();
+        $product = ProductModel::getProductDetail($id);
+        if (!$product) {
+            return new ProductException();
+        }
+        return $product;
     }
 }

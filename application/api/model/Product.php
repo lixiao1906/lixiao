@@ -11,7 +11,7 @@ namespace app\api\model;
 
 class Product extends BaseModel
 {
-   protected $hidden = ['from', 'create_time', 'delete_time', 'update_time', 'category_id','pivot','img_id','summary'];
+    protected $hidden = ['from', 'create_time', 'delete_time', 'update_time', 'category_id', 'pivot', 'img_id', 'summary'];
 
     public function getMainImgUrlAttr($value, $data)
     {
@@ -23,16 +23,40 @@ class Product extends BaseModel
      * @param $count
      * @return mixed
      */
-    public static function getProductRecently($count){
+    public static function getProductRecently($count)
+    {
         return self::order('create_time desc')->limit($count)->select();
     }
 
     /**
      * 根据分类ID查询产品
      */
-    public static function getProductByCategoryId($id){
-        // 笑笑，这个不用关联关系，你看一下产品表里就有这个categoryid字段，直接用这个去查就行了，这个时候还要传过来
-        // 一个参数，直接用self,where里面你来写，参照其他的 今天第一次写
-        return self::where('category_id','=',$id)->select();
+    public static function getProductByCategoryId($id)
+    {
+        return self::where('category_id', '=', $id)->select();
+    }
+
+    public function imgs()
+    {
+        return $this->hasMany('ProductImage', 'product_id', 'id');
+    }
+
+    public function properties()
+    {
+        return $this->hasMany('ProductProperty', 'product_id', 'id');
+    }
+
+    /**
+     * 查询商品详情
+     *
+     * @param $id
+     */
+    public static function getProductDetail($id)
+    {
+        //Query
+        return self::with(['imgs' => function ($query) {
+            $query->with(['imgUrl'])->order('order', 'asc');
+        }])->with(['properties'])
+            ->find($id);
     }
 }

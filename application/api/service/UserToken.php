@@ -64,6 +64,7 @@ class UserToken extends BaseToken
         // 定义一个userModel，去用户表中查询是否存在该用户
         $user = UserModel::getUserByOpenid($openid);
         if ($user) {
+            // 如果用户存在，则取用户id
             $userid = $user->id;
         } else {
             // 2.如果存在则不做处理，如果不存在则新增一条记录
@@ -79,14 +80,17 @@ class UserToken extends BaseToken
 
     private function saveToCache($cacheValue)
     {
-        $key = self::generateToken();
+        $key = self::generateToken();// 这就是令牌
+
+        // 缓存用户信息
         $value = json_encode($cacheValue); // 把数组转化为json字符串
         //$value = json_decode($cacheValue);// 把字符串转化为数组
-        $expre_id = config('setting.token_expire_in');
+        $expre_id = config('setting.token_expire_in');// 时长 7200
 
         // tp5自带的缓存机制，可以扩展为redis
-        $request = cache($key, $value, $expre_id);
-        if (!$request) {
+        $request = cache($key, $value, $expre_id); // $request 返回为 true或false
+
+        if (!$request) { //
             throw new TokenException([
                 'msg' => '服务器内部错误'
             ]);
@@ -104,7 +108,7 @@ class UserToken extends BaseToken
     {
         $cacheValue = $wxResult;
         $cacheValue['userid'] = $userid;
-        $cacheValue['scope'] = 16;
+        $cacheValue['scope'] = 16;//用户权限作用域，我们后边会讲到
         return $cacheValue;
     }
 
@@ -113,6 +117,7 @@ class UserToken extends BaseToken
         $user = UserModel::create([
             'openid' => $openid
         ]);
+        // 新增成功，返回用户ID
         return $user->id;
     }
 }
